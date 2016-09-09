@@ -1,0 +1,32 @@
+{
+  "name": "lelikptz/yii2-news-module",
+  "license": "BSD-3-Clause",
+  "description": "news module",
+  "type": "yii2-module",
+  "keywords": [
+    "yii2",
+    "module",
+    "news"
+  ],
+  "authors": [
+    {
+      "name": "Orlov Alexey",
+      "email": "orlov@farbik.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.5",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
